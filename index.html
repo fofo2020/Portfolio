@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fouad's Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="style.css" type="text/css" href="./CSS/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
   
 
 </head>
@@ -42,11 +42,13 @@
 <!--Jumbotron section -->
 
 <div class="jumbotron">
+  <div class="content-bottom">
   <h1 class="display-4">Welcome to My Page!</h1>
-  <p class="lead">Thank you for visiting my website. This is a simple jumbotron-style component that allows me to highlight some important information about myself and my work.</p>
+  <p class="lead">Thank you for visiting my website.</p>
   <hr class="my-4">
   <p>My passion for IT begun at a very young age.</p>
   <a class="btn btn-primary btn-lg" href="#about" role="button">Learn more about me</a>
+  </div>
 </div> 
 
 <!-- portfolio container -->
@@ -56,7 +58,7 @@
     <div class="row">
       <div class="col-md-6 col-lg-4">
         <div class="card">
-          <img class="card-img-top" src="project1.jpg" alt="Project 1">
+          <img class="card-img-top" src="./Images/WeatherDashboard.png" alt="Project 1">
           <div class="card-body">
             <h5 class="card-title">Project 1</h5>
             <p class="card-text">Description of Project 1</p>
@@ -66,7 +68,7 @@
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="card">
-          <img class="card-img-top" src="project2.jpg" alt="Project 2">
+          <img class="card-img-top" src="./Images/Calendar-project.jpeg" alt="Project 2">
           <div class="card-body">
             <h5 class="card-title">Project 2</h5>
             <p class="card-text">Description of Project 2</p>
@@ -76,10 +78,30 @@
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="card">
-          <img class="card-img-top" src="project3.jpg" alt="Project 3">
+          <img class="card-img-top" src="./Images/Password-Generator.png" alt="Project 3">
           <div class="card-body">
             <h5 class="card-title">Project 3</h5>
             <p class="card-text">Description of Project 3</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="./Images/" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Description of Project 1</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="project1.jpg" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Description of Project 1</p>
             <a href="#" class="btn btn-primary">Learn More</a>
           </div>
         </div>
@@ -100,12 +122,9 @@
 
 <!-- footer-->
 <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5">
+
   <!-- Footer -->
-  <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: #45526e"
-          >
+  <footer>
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Links -->
