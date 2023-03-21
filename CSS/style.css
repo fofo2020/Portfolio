@@ -25,15 +25,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:750px;
+    height:850px;
     padding: 5rem 2rem;
     margin-bottom: 0;
-    background-image: url("/Images/fouadpic.png");
+    background-image: url("../Images/fouadpic.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     color: rgb(60, 3, 3);
-    /* opacity: 0.55; */
     zoom: 1;
    
   }
