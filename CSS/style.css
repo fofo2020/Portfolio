@@ -42,22 +42,42 @@
 
   
   
-.jumbotron h1 {
+ .jumbotron  h1 {
   font-size: 4rem;
   color: #6e2020;
   font-weight: bold;
+  border-color: #000000;
+  border: 1cm;
 } 
+
+h2{
+  font-size: 4rem;
+  color: #6e2020 !important;
+  font-weight: bold;
+  border-color: #000000;
+  border: 1cm;
+
+}
+
+.fas{
+
+color: #ffffff;
+}
+
 
 .jumbotron p {
   font-size: 1.5rem;
+  border-color: #000000;
+  border: 1cm;
 }
 
 #btn-jumbotron{
   background-color:  #6e2020 !important;
+  border-color: #000000!important;
 }
 /* About Me section */
 
-.about{
+#about{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,3 +180,24 @@ footer {
 html { 
   scroll-behavior: smooth;
 }
+
+
+/* Socials */
+
+.socials { 
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.facebook, .instagram, .twitter, .linkedIn {
+  width: 50px;
+  margin: 5px;
+}
+
+
+.btn-outline-light{
+  border-color: #6e2020!important;
+
+}
+
