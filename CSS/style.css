@@ -24,11 +24,11 @@
 .jumbotron {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     height:850px;
     padding: 5rem 2rem;
     margin-bottom: 0;
-    background-image: url("../Images/fouadpic.png");
+    background-image: url("https://github.com/fofo2020/Portfolio/blob/main/Images/fouadpic.png?raw=true");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,13 +37,23 @@
    
   }
 
+  div.content-bottom{
+display:flex;
+flex-direction: column;
+align-items: center;
+ }
+
+
  .jumbotron  h1 {
+  
   font-size: 4rem;
   color: #6e2020;
   font-weight: bold;
   border-color: #000000;
   border: 1cm;
 } 
+
+
 
 h2{
   font-size: 4rem;
@@ -66,22 +76,49 @@ color: #ffffff;
   border: 1cm;
 }
 
-#btn-jumbotron{
-  background-color:  #6e2020 !important;
-  border-color: #000000!important;
-}
-/* About Me section */
 
+
+.btn.btn-primary {
+  background-color:  #6e2020 ;
+  border-color: #000000;
+  transition-duration: 0.2ms;
+}
+
+
+.btn.btn-primary:hover {
+  background-color: #b16666 ;
+  color: #f2e5e5;
+  border-color: #000000 !important;
+}
+
+
+/*about me section*/
 #about{
   display: flex;
-  flex-direction: column;
+  align-items:  center;
   justify-content: center;
-  width:auto;
+  align-content: flex-end;
   height:450px;
   font-size:x-large;
   color: #6e2020;
   background-color: #000000;
+  block-size: fit-content;
+ 
 }
+
+.aboutme{
+
+  block-size: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #00030e00;
+  padding: 4px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  
+ 
+}
+
 
 /* Work section */
 .page-section-work {
