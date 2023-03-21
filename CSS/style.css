@@ -14,36 +14,58 @@
 
 .nav-link {
   color: #f8f9fa;
+  font-weight: bold;
+}
+
+#logo{
+  height: 42%;
+  width: 42%;
 }
 
 /* Jumbotron section */
 .jumbotron {
-    
-    height:900px;
-    padding: 5rem 2rem;
-    margin-bottom: 0;
-    background-image: url("/Images/fouad-coding.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    opacity: 0.80;
-    zoom: 1;
-  
     display: flex;
     justify-content: center;
     align-items: center;
+    height:900px;
+    padding: 5rem 2rem;
+    margin-bottom: 0;
+    background-image: url("/Images/fouad-pic.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(60, 3, 3);
+    /* opacity: 0.55; */
+    zoom: 1;
     height: 100vh;
   }
-    
+
   
   
 .jumbotron h1 {
   font-size: 4rem;
-}
+  color: #6e2020;
+  font-weight: bold;
+} 
 
 .jumbotron p {
   font-size: 1.5rem;
+}
+
+#btn-jumbotron{
+  background-color:  #6e2020 !important;
+}
+/* About Me section */
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:auto;
+  height:450px;
+  font-size:x-large;
+  color: #6e2020;
+  background-color: #000000;
 }
 
 /* Work section */
@@ -74,6 +96,13 @@
     
 }
 
+.card-body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
 
   .card-img-top {
     object-fit: cover;
@@ -88,6 +117,7 @@
 
 .card-text {
   font-size: 1.25rem;
+ 
 }
 .card .btn.btn-primary {
   border-radius: 10px;
@@ -124,4 +154,9 @@ footer {
 
 .footer-text {
   font-size: 1.2rem;
+}
+
+
+html { 
+  scroll-behavior: smooth;
 }
