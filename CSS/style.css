@@ -2,9 +2,7 @@
 .navbar {
   padding: 1rem 1rem;
   background-color: #000000 !important;
-  
-
-  
+    
 }
 .navbar-nav {
   padding: 1rem 1rem;
@@ -27,21 +25,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:900px;
+    height:750px;
     padding: 5rem 2rem;
     margin-bottom: 0;
-    background-image: url("/Images/fouad-pic.png");
+    background-image: url("./Images/fouadpic.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     color: rgb(60, 3, 3);
     /* opacity: 0.55; */
     zoom: 1;
-    height: 100vh;
+   
   }
 
-  
-  
  .jumbotron  h1 {
   font-size: 4rem;
   color: #6e2020;
